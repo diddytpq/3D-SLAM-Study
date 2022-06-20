@@ -131,8 +131,15 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/yoseph/worckspace/3D-SLAM-Study/build/gtest/cmake_install.cmake")
-  include("/home/yoseph/worckspace/3D-SLAM-Study/build/LIO-SAM-noetic/cmake_install.cmake")
-  include("/home/yoseph/worckspace/3D-SLAM-Study/build/loam_velodyne/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/mecanum_robot_gazebo/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/example/velodyne_simulator/velodyne_description/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/example/velodyne_simulator/velodyne_simulator/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LIO-SAM-noetic/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/loam_velodyne/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/mecanum_robot_description/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/example/neor_mini/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/example/velodyne_simulator/velodyne_gazebo_plugins/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/example/steer_mini_gazebo/cmake_install.cmake")
 
 endif()
 

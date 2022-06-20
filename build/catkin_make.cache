@@ -1,2 +1,2 @@
-LIO-SAM-noetic:loam_velodyne
+LOAM/LIO-SAM-noetic:LOAM/loam_velodyne:example/neor_mini:example/steer_mini_gazebo:example/velodyne_simulator/velodyne_description:example/velodyne_simulator/velodyne_gazebo_plugins:example/velodyne_simulator/velodyne_simulator:mecanum_robot_description:mecanum_robot_gazebo
 -DPYTHON_EXECUTABLE=/usr/bin/python3 -DCATKIN_DEVEL_PREFIX=/home/yoseph/worckspace/3D-SLAM-Study/devel -DCMAKE_INSTALL_PREFIX=/home/yoseph/worckspace/3D-SLAM-Study/install -G Unix Makefiles

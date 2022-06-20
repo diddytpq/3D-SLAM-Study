@@ -7,8 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/yoseph/worckspace/3D-SLAM-Study/devel:$CMAKE_PREFIX_PATH"
-export PATH='/opt/ros/noetic/bin:/home/yoseph/anaconda3/bin:/home/yoseph/anaconda3/bin:/home/yoseph/anaconda3/condabin:/home/yoseph/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
 export PWD='/home/yoseph/worckspace/3D-SLAM-Study/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/yoseph/worckspace/3D-SLAM-Study/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/yoseph/worckspace/3D-SLAM-Study/src:$ROS_PACKAGE_PATH"
