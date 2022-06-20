@@ -10,3 +10,12 @@ rosrun tf static_transform_publisher 0 0 0 0 0 1.57 /map /camera_init 10
 
 
 
+
+## Record topic
+```bash
+rosbag record -a
+roscore
+rosparam set /use_sim_time true
+rosbag play --clock --pause 2022-06-13-16-58-32.bag
+```
+
