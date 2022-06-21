@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yoseph/worckspace/3D-SLAM-Study/src
+CMAKE_SOURCE_DIR = /home/yang/workspace/3D-SLAM-Study/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yoseph/worckspace/3D-SLAM-Study/build
+CMAKE_BINARY_DIR = /home/yang/workspace/3D-SLAM-Study/build
 
 # Utility rule file for loam_velodyne_test_data.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yoseph/worckspace/3D-SLAM-Study/build
 include LOAM/loam_velodyne/CMakeFiles/loam_velodyne_test_data.dir/progress.make
 
 LOAM/loam_velodyne/CMakeFiles/loam_velodyne_test_data:
-	cd /home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/loam_velodyne && /usr/bin/cmake -E tar -xzf velodyne_loam_test_data.tar.gz
+	cd /home/yang/workspace/3D-SLAM-Study/build/LOAM/loam_velodyne && /usr/bin/cmake -E tar -xzf velodyne_loam_test_data.tar.gz
 
 loam_velodyne_test_data: LOAM/loam_velodyne/CMakeFiles/loam_velodyne_test_data
 loam_velodyne_test_data: LOAM/loam_velodyne/CMakeFiles/loam_velodyne_test_data.dir/build.make
@@ -67,10 +67,10 @@ LOAM/loam_velodyne/CMakeFiles/loam_velodyne_test_data.dir/build: loam_velodyne_t
 .PHONY : LOAM/loam_velodyne/CMakeFiles/loam_velodyne_test_data.dir/build
 
 LOAM/loam_velodyne/CMakeFiles/loam_velodyne_test_data.dir/clean:
-	cd /home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/loam_velodyne && $(CMAKE_COMMAND) -P CMakeFiles/loam_velodyne_test_data.dir/cmake_clean.cmake
+	cd /home/yang/workspace/3D-SLAM-Study/build/LOAM/loam_velodyne && $(CMAKE_COMMAND) -P CMakeFiles/loam_velodyne_test_data.dir/cmake_clean.cmake
 .PHONY : LOAM/loam_velodyne/CMakeFiles/loam_velodyne_test_data.dir/clean
 
 LOAM/loam_velodyne/CMakeFiles/loam_velodyne_test_data.dir/depend:
-	cd /home/yoseph/worckspace/3D-SLAM-Study/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yoseph/worckspace/3D-SLAM-Study/src /home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/loam_velodyne /home/yoseph/worckspace/3D-SLAM-Study/build /home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/loam_velodyne /home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/loam_velodyne/CMakeFiles/loam_velodyne_test_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yang/workspace/3D-SLAM-Study/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yang/workspace/3D-SLAM-Study/src /home/yang/workspace/3D-SLAM-Study/src/LOAM/loam_velodyne /home/yang/workspace/3D-SLAM-Study/build /home/yang/workspace/3D-SLAM-Study/build/LOAM/loam_velodyne /home/yang/workspace/3D-SLAM-Study/build/LOAM/loam_velodyne/CMakeFiles/loam_velodyne_test_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : LOAM/loam_velodyne/CMakeFiles/loam_velodyne_test_data.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lio_sam/lio_sam_mapOptmization"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lio_sam/lio_sam_mapOptmization.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/lio_sam/lio_sam_mapOptmization"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/lio_sam/lio_sam_mapOptmization.pdb"
   "CMakeFiles/lio_sam_mapOptmization.dir/src/mapOptmization.cpp.o"
 )
 

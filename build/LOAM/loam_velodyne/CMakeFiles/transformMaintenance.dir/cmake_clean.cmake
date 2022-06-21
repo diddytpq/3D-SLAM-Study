@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/loam_velodyne/transformMaintenance"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/loam_velodyne/transformMaintenance.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/loam_velodyne/transformMaintenance"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/loam_velodyne/transformMaintenance.pdb"
   "CMakeFiles/transformMaintenance.dir/src/transform_maintenance_node.cpp.o"
 )
 

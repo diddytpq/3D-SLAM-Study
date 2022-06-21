@@ -1,8 +1,8 @@
-# Install script for directory: /home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/loam_velodyne
+# Install script for directory: /home/yang/workspace/3D-SLAM-Study/src/LOAM/loam_velodyne
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yoseph/worckspace/3D-SLAM-Study/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yang/workspace/3D-SLAM-Study/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,23 +38,23 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/loam_velodyne/catkin_generated/installspace/loam_velodyne.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/build/LOAM/loam_velodyne/catkin_generated/installspace/loam_velodyne.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/loam_velodyne/cmake" TYPE FILE FILES
-    "/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/loam_velodyne/catkin_generated/installspace/loam_velodyneConfig.cmake"
-    "/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/loam_velodyne/catkin_generated/installspace/loam_velodyneConfig-version.cmake"
+    "/home/yang/workspace/3D-SLAM-Study/build/LOAM/loam_velodyne/catkin_generated/installspace/loam_velodyneConfig.cmake"
+    "/home/yang/workspace/3D-SLAM-Study/build/LOAM/loam_velodyne/catkin_generated/installspace/loam_velodyneConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/loam_velodyne" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/loam_velodyne/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/loam_velodyne" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/src/LOAM/loam_velodyne/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/loam_velodyne/src/lib/cmake_install.cmake")
+  include("/home/yang/workspace/3D-SLAM-Study/build/LOAM/loam_velodyne/src/lib/cmake_install.cmake")
 
 endif()
 

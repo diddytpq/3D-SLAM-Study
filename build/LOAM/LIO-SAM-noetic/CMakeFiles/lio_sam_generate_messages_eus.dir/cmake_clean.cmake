@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/roseus/ros/lio_sam/manifest.l"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/roseus/ros/lio_sam/msg/cloud_info.l"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/roseus/ros/lio_sam/srv/save_map.l"
+  "/home/yang/workspace/3D-SLAM-Study/devel/share/roseus/ros/lio_sam/manifest.l"
+  "/home/yang/workspace/3D-SLAM-Study/devel/share/roseus/ros/lio_sam/msg/cloud_info.l"
+  "/home/yang/workspace/3D-SLAM-Study/devel/share/roseus/ros/lio_sam/srv/save_map.l"
   "CMakeFiles/lio_sam_generate_messages_eus"
 )
 

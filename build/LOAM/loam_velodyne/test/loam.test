@@ -8,7 +8,7 @@
   <node pkg="loam_velodyne" type="laserMapping" name="laserMapping"/>
   <node pkg="loam_velodyne" type="transformMaintenance" name="transformMaintenance"/>
 
-  <node name="player" pkg="rosbag" type="play" args="/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/loam_velodyne/test_data/test_input.bag --clock -d1"/>
-  <node name="recorder" pkg="rosbag" type="record" args="/laser_cloud_surround /laser_odom_to_init /tf -O /home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/loam_velodyne/test_output.bag" launch-prefix="timeout -s INT 32" />
-  <test test-name="bag_test" pkg="loam_velodyne" type="bag_test" args="/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/loam_velodyne/test_data/test_comparison.bag /home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/loam_velodyne/test_output.bag"/>
+  <node name="player" pkg="rosbag" type="play" args="/home/yang/workspace/3D-SLAM-Study/build/LOAM/loam_velodyne/test_data/test_input.bag --clock -d1"/>
+  <node name="recorder" pkg="rosbag" type="record" args="/laser_cloud_surround /laser_odom_to_init /tf -O /home/yang/workspace/3D-SLAM-Study/build/LOAM/loam_velodyne/test_output.bag" launch-prefix="timeout -s INT 32" />
+  <test test-name="bag_test" pkg="loam_velodyne" type="bag_test" args="/home/yang/workspace/3D-SLAM-Study/build/LOAM/loam_velodyne/test_data/test_comparison.bag /home/yang/workspace/3D-SLAM-Study/build/LOAM/loam_velodyne/test_output.bag"/>
 </launch>

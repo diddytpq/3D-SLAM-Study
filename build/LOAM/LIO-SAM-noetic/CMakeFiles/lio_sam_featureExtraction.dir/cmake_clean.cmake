@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lio_sam/lio_sam_featureExtraction"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lio_sam/lio_sam_featureExtraction.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/lio_sam/lio_sam_featureExtraction"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/lio_sam/lio_sam_featureExtraction.pdb"
   "CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o"
 )
 

@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/yoseph/worckspace/3D-SLAM-Study/build'
+export PWD='/home/yang/workspace/3D-SLAM-Study/build'

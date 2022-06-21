@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/loam_velodyne/multiScanRegistration"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/loam_velodyne/multiScanRegistration.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/loam_velodyne/multiScanRegistration"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/loam_velodyne/multiScanRegistration.pdb"
   "CMakeFiles/multiScanRegistration.dir/src/multi_scan_registration_node.cpp.o"
 )
 

@@ -52,7 +52,7 @@
       <material>Gazebo/Grey</material>
     </gazebo>
 
-    <gazebo>
+    <!-- <gazebo>
       <plugin name="imu_plugin" filename="libgazebo_ros_imu.so">
         <alwaysOn>true</alwaysOn>
         <bodyName>imu_link</bodyName>
@@ -79,7 +79,7 @@
           </noise>
         </imu>
       </plugin>
-    </gazebo>
+    </gazebo> -->
 
     <!-- <gazebo reference="front_R_wheel">
       <mu1>1.0</mu1>
@@ -93,7 +93,7 @@
       <material>Gazebo/DarkGrey</material>
   </gazebo> -->
 
-    <gazebo reference="base_scan">
+    <!-- <gazebo reference="base_scan">
       <material>Gazebo/FlatBlack</material>
       <sensor type="ray" name="lds_lfcd_sensor">
         <pose>0 0 0 0 0 0</pose>
@@ -124,10 +124,10 @@
           <frameName>base_scan</frameName>
         </plugin>
       </sensor>
-    </gazebo>
+    </gazebo> -->
 
 
-    <gazebo reference="camera_link">
+    <!-- <gazebo reference="camera_link">
       <sensor name="mecanum_camera_ir" type="depth">
         <update_rate>0</update_rate>
         <camera>
@@ -160,15 +160,15 @@
           <distortionK3>0.00000001</distortionK3>
           <distortionT1>0.00000001</distortionT1>
           <distortionT2>0.00000001</distortionT2>
-          <!-- <CxPrime>0</CxPrime>
+          <CxPrime>0</CxPrime>
           <Cx>640</Cx>
           <Cy>360</Cy>
-          <focalLength>639.9976491530514</focalLength> -->
+          <focalLength>639.9976491530514</focalLength>
           <hackBaseline>0</hackBaseline>
         </plugin>
       </sensor>
     </gazebo>
-  </xacro:macro>
+  </xacro:macro> -->
   
   <!--gazebo>
    <plugin name="gazebo_grasp_fix" filename="libgazebo_grasp_fix.so">
@@ -188,5 +188,5 @@
        <contact_topic>__default_topic__</contact_topic>
     </plugin>
 </gazebo!-->
-
+  </xacro:macro>
 </robot>

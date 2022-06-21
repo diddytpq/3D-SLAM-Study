@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yoseph/worckspace/3D-SLAM-Study/src
+CMAKE_SOURCE_DIR = /home/yang/workspace/3D-SLAM-Study/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yoseph/worckspace/3D-SLAM-Study/build
+CMAKE_BINARY_DIR = /home/yang/workspace/3D-SLAM-Study/build
 
 # Utility rule file for trajectory_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/trajectory_msgs_ge
 .PHONY : example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
 
 example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/yoseph/worckspace/3D-SLAM-Study/build/example/velodyne_simulator/velodyne_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/yang/workspace/3D-SLAM-Study/build/example/velodyne_simulator/velodyne_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/clean
 
 example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/yoseph/worckspace/3D-SLAM-Study/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yoseph/worckspace/3D-SLAM-Study/src /home/yoseph/worckspace/3D-SLAM-Study/src/example/velodyne_simulator/velodyne_gazebo_plugins /home/yoseph/worckspace/3D-SLAM-Study/build /home/yoseph/worckspace/3D-SLAM-Study/build/example/velodyne_simulator/velodyne_gazebo_plugins /home/yoseph/worckspace/3D-SLAM-Study/build/example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yang/workspace/3D-SLAM-Study/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yang/workspace/3D-SLAM-Study/src /home/yang/workspace/3D-SLAM-Study/src/example/velodyne_simulator/velodyne_gazebo_plugins /home/yang/workspace/3D-SLAM-Study/build /home/yang/workspace/3D-SLAM-Study/build/example/velodyne_simulator/velodyne_gazebo_plugins /home/yang/workspace/3D-SLAM-Study/build/example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/depend
 
