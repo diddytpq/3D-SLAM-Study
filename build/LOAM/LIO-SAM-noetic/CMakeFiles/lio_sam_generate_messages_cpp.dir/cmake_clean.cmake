@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yang/workspace/3D-SLAM-Study/devel/include/lio_sam/cloud_info.h"
-  "/home/yang/workspace/3D-SLAM-Study/devel/include/lio_sam/save_map.h"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/include/lio_sam/cloud_info.h"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/include/lio_sam/save_map.h"
   "CMakeFiles/lio_sam_generate_messages_cpp"
 )
 

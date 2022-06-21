@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yang/workspace/3D-SLAM-Study/devel/share/gennodejs/ros/lio_sam/msg/cloud_info.js"
-  "/home/yang/workspace/3D-SLAM-Study/devel/share/gennodejs/ros/lio_sam/srv/save_map.js"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/gennodejs/ros/lio_sam/msg/cloud_info.js"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/gennodejs/ros/lio_sam/srv/save_map.js"
   "CMakeFiles/lio_sam_generate_messages_nodejs"
 )
 

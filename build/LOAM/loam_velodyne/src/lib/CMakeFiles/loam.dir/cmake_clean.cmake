@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yang/workspace/3D-SLAM-Study/devel/lib/libloam.pdb"
-  "/home/yang/workspace/3D-SLAM-Study/devel/lib/libloam.so"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libloam.pdb"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libloam.so"
   "CMakeFiles/loam.dir/BasicLaserMapping.cpp.o"
   "CMakeFiles/loam.dir/BasicLaserOdometry.cpp.o"
   "CMakeFiles/loam.dir/BasicScanRegistration.cpp.o"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yang/workspace/3D-SLAM-Study/devel/lib/loam_velodyne/laserOdometry"
-  "/home/yang/workspace/3D-SLAM-Study/devel/lib/loam_velodyne/laserOdometry.pdb"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/loam_velodyne/laserOdometry"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/loam_velodyne/laserOdometry.pdb"
   "CMakeFiles/laserOdometry.dir/src/laser_odometry_node.cpp.o"
 )
 

@@ -7,4 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/yang/workspace/3D-SLAM-Study/build'
+export LD_LIBRARY_PATH='/opt/ros/noetic/lib'
+export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig'
+export PWD='/home/yoseph/worckspace/3D-SLAM-Study/build'
+export PYTHONPATH='/opt/ros/noetic/lib/python3/dist-packages'

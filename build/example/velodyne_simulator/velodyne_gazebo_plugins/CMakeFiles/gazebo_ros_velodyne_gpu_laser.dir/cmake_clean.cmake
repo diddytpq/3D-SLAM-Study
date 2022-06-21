@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yang/workspace/3D-SLAM-Study/devel/lib/libgazebo_ros_velodyne_gpu_laser.pdb"
-  "/home/yang/workspace/3D-SLAM-Study/devel/lib/libgazebo_ros_velodyne_gpu_laser.so"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libgazebo_ros_velodyne_gpu_laser.pdb"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libgazebo_ros_velodyne_gpu_laser.so"
   "CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/src/GazeboRosVelodyneLaser.cpp.o"
 )
 

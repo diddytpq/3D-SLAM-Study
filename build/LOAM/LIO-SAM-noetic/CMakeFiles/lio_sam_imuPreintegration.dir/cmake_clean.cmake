@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yang/workspace/3D-SLAM-Study/devel/lib/lio_sam/lio_sam_imuPreintegration"
-  "/home/yang/workspace/3D-SLAM-Study/devel/lib/lio_sam/lio_sam_imuPreintegration.pdb"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lio_sam/lio_sam_imuPreintegration"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lio_sam/lio_sam_imuPreintegration.pdb"
   "CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o"
 )
 

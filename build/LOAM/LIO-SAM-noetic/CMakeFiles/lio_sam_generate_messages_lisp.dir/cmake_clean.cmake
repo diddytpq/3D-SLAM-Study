@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yang/workspace/3D-SLAM-Study/devel/share/common-lisp/ros/lio_sam/msg/cloud_info.lisp"
-  "/home/yang/workspace/3D-SLAM-Study/devel/share/common-lisp/ros/lio_sam/srv/save_map.lisp"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/common-lisp/ros/lio_sam/msg/cloud_info.lisp"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/common-lisp/ros/lio_sam/srv/save_map.lisp"
   "CMakeFiles/lio_sam_generate_messages_lisp"
 )
 

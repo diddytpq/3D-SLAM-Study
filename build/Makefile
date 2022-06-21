@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yang/workspace/3D-SLAM-Study/src
+CMAKE_SOURCE_DIR = /home/yoseph/worckspace/3D-SLAM-Study/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yang/workspace/3D-SLAM-Study/build
+CMAKE_BINARY_DIR = /home/yoseph/worckspace/3D-SLAM-Study/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yang/workspace/3D-SLAM-Study/build/CMakeFiles /home/yang/workspace/3D-SLAM-Study/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles /home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yang/workspace/3D-SLAM-Study/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1949,19 +1949,6 @@ flat_world_imu_node/fast:
 .PHONY : flat_world_imu_node/fast
 
 #=============================================================================
-# Target rules for targets named steer_mini_gazebo_node
-
-# Build rule for target.
-steer_mini_gazebo_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 steer_mini_gazebo_node
-.PHONY : steer_mini_gazebo_node
-
-# fast build rule for target.
-steer_mini_gazebo_node/fast:
-	$(MAKE) -f example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/build.make example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/build
-.PHONY : steer_mini_gazebo_node/fast
-
-#=============================================================================
 # Target rules for targets named gazebo_ros_velodyne_gpu_laser
 
 # Build rule for target.
@@ -1986,6 +1973,19 @@ gazebo_ros_velodyne_laser: cmake_check_build_system
 gazebo_ros_velodyne_laser/fast:
 	$(MAKE) -f example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/build.make example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/build
 .PHONY : gazebo_ros_velodyne_laser/fast
+
+#=============================================================================
+# Target rules for targets named steer_mini_gazebo_node
+
+# Build rule for target.
+steer_mini_gazebo_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 steer_mini_gazebo_node
+.PHONY : steer_mini_gazebo_node
+
+# fast build rule for target.
+steer_mini_gazebo_node/fast:
+	$(MAKE) -f example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/build.make example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/build
+.PHONY : steer_mini_gazebo_node/fast
 
 #=============================================================================
 # Target rules for targets named turtlebot3_description_xacro_generated_to_devel_space_
@@ -2150,9 +2150,9 @@ help:
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
 	@echo "... gazebo_msgs_generate_messages_lisp"
 	@echo "... flat_world_imu_node"
-	@echo "... steer_mini_gazebo_node"
 	@echo "... gazebo_ros_velodyne_gpu_laser"
 	@echo "... gazebo_ros_velodyne_laser"
+	@echo "... steer_mini_gazebo_node"
 	@echo "... turtlebot3_description_xacro_generated_to_devel_space_"
 .PHONY : help
 

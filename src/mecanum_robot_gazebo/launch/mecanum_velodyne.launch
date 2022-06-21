@@ -33,5 +33,6 @@
     <!-- <remap from="/joint_states" to="/mecanum/joint_states" /> -->
   </node>
 
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find mecanum_robot_gazebo)/rviz/mecanum_velodyne_rviz.rviz"/>
 
 </launch>

@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/yang/workspace/3D-SLAM-Study/src
-# Build directory: /home/yang/workspace/3D-SLAM-Study/build
+# Source directory: /home/yoseph/worckspace/3D-SLAM-Study/src
+# Build directory: /home/yoseph/worckspace/3D-SLAM-Study/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
@@ -19,6 +19,6 @@ subdirs("turtlebot_example/turtlebot3_slam")
 subdirs("turtlebot_example/turtlebot3_teleop")
 subdirs("mecanum_robot_description")
 subdirs("example/neor_mini")
-subdirs("example/steer_mini_gazebo")
 subdirs("example/velodyne_simulator/velodyne_gazebo_plugins")
+subdirs("example/steer_mini_gazebo")
 subdirs("turtlebot_example/turtlebot3_description")

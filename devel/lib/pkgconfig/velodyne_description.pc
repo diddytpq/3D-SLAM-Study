@@ -1,4 +1,4 @@
-prefix=/home/yang/workspace/3D-SLAM-Study/devel
+prefix=/home/yoseph/worckspace/3D-SLAM-Study/devel
 
 Name: velodyne_description
 Description: Description of velodyne_description
