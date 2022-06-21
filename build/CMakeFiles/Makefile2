@@ -57,8 +57,6 @@ all: gtest/all
 all: mecanum_robot_gazebo/all
 all: turtlebot_example/turtlebot3_navigation/all
 all: turtlebot_example/turtlebot3_simulations/all
-all: example/velodyne_simulator/velodyne_description/all
-all: example/velodyne_simulator/velodyne_simulator/all
 all: LOAM/LIO-SAM-noetic/all
 all: LOAM/loam_velodyne/all
 all: turtlebot_example/turtlebot3_bringup/all
@@ -67,9 +65,6 @@ all: turtlebot_example/turtlebot3_gazebo/all
 all: turtlebot_example/turtlebot3_slam/all
 all: turtlebot_example/turtlebot3_teleop/all
 all: mecanum_robot_description/all
-all: example/neor_mini/all
-all: example/velodyne_simulator/velodyne_gazebo_plugins/all
-all: example/steer_mini_gazebo/all
 all: turtlebot_example/turtlebot3_description/all
 
 .PHONY : all
@@ -79,8 +74,6 @@ preinstall: gtest/preinstall
 preinstall: mecanum_robot_gazebo/preinstall
 preinstall: turtlebot_example/turtlebot3_navigation/preinstall
 preinstall: turtlebot_example/turtlebot3_simulations/preinstall
-preinstall: example/velodyne_simulator/velodyne_description/preinstall
-preinstall: example/velodyne_simulator/velodyne_simulator/preinstall
 preinstall: LOAM/LIO-SAM-noetic/preinstall
 preinstall: LOAM/loam_velodyne/preinstall
 preinstall: turtlebot_example/turtlebot3_bringup/preinstall
@@ -89,9 +82,6 @@ preinstall: turtlebot_example/turtlebot3_gazebo/preinstall
 preinstall: turtlebot_example/turtlebot3_slam/preinstall
 preinstall: turtlebot_example/turtlebot3_teleop/preinstall
 preinstall: mecanum_robot_description/preinstall
-preinstall: example/neor_mini/preinstall
-preinstall: example/velodyne_simulator/velodyne_gazebo_plugins/preinstall
-preinstall: example/steer_mini_gazebo/preinstall
 preinstall: turtlebot_example/turtlebot3_description/preinstall
 
 .PHONY : preinstall
@@ -106,8 +96,6 @@ clean: gtest/clean
 clean: mecanum_robot_gazebo/clean
 clean: turtlebot_example/turtlebot3_navigation/clean
 clean: turtlebot_example/turtlebot3_simulations/clean
-clean: example/velodyne_simulator/velodyne_description/clean
-clean: example/velodyne_simulator/velodyne_simulator/clean
 clean: LOAM/LIO-SAM-noetic/clean
 clean: LOAM/loam_velodyne/clean
 clean: turtlebot_example/turtlebot3_bringup/clean
@@ -116,9 +104,6 @@ clean: turtlebot_example/turtlebot3_gazebo/clean
 clean: turtlebot_example/turtlebot3_slam/clean
 clean: turtlebot_example/turtlebot3_teleop/clean
 clean: mecanum_robot_description/clean
-clean: example/neor_mini/clean
-clean: example/velodyne_simulator/velodyne_gazebo_plugins/clean
-clean: example/steer_mini_gazebo/clean
 clean: turtlebot_example/turtlebot3_description/clean
 
 .PHONY : clean
@@ -273,98 +258,6 @@ LOAM/loam_velodyne/src/lib/preinstall:
 LOAM/loam_velodyne/src/lib/clean: LOAM/loam_velodyne/src/lib/CMakeFiles/loam.dir/clean
 
 .PHONY : LOAM/loam_velodyne/src/lib/clean
-
-#=============================================================================
-# Directory level rules for directory example/neor_mini
-
-# Recursive "all" directory target.
-example/neor_mini/all:
-
-.PHONY : example/neor_mini/all
-
-# Recursive "preinstall" directory target.
-example/neor_mini/preinstall:
-
-.PHONY : example/neor_mini/preinstall
-
-# Recursive "clean" directory target.
-example/neor_mini/clean:
-
-.PHONY : example/neor_mini/clean
-
-#=============================================================================
-# Directory level rules for directory example/steer_mini_gazebo
-
-# Recursive "all" directory target.
-example/steer_mini_gazebo/all: example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/all
-
-.PHONY : example/steer_mini_gazebo/all
-
-# Recursive "preinstall" directory target.
-example/steer_mini_gazebo/preinstall:
-
-.PHONY : example/steer_mini_gazebo/preinstall
-
-# Recursive "clean" directory target.
-example/steer_mini_gazebo/clean: example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/clean
-
-.PHONY : example/steer_mini_gazebo/clean
-
-#=============================================================================
-# Directory level rules for directory example/velodyne_simulator/velodyne_description
-
-# Recursive "all" directory target.
-example/velodyne_simulator/velodyne_description/all:
-
-.PHONY : example/velodyne_simulator/velodyne_description/all
-
-# Recursive "preinstall" directory target.
-example/velodyne_simulator/velodyne_description/preinstall:
-
-.PHONY : example/velodyne_simulator/velodyne_description/preinstall
-
-# Recursive "clean" directory target.
-example/velodyne_simulator/velodyne_description/clean:
-
-.PHONY : example/velodyne_simulator/velodyne_description/clean
-
-#=============================================================================
-# Directory level rules for directory example/velodyne_simulator/velodyne_gazebo_plugins
-
-# Recursive "all" directory target.
-example/velodyne_simulator/velodyne_gazebo_plugins/all: example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/all
-example/velodyne_simulator/velodyne_gazebo_plugins/all: example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/all
-
-.PHONY : example/velodyne_simulator/velodyne_gazebo_plugins/all
-
-# Recursive "preinstall" directory target.
-example/velodyne_simulator/velodyne_gazebo_plugins/preinstall:
-
-.PHONY : example/velodyne_simulator/velodyne_gazebo_plugins/preinstall
-
-# Recursive "clean" directory target.
-example/velodyne_simulator/velodyne_gazebo_plugins/clean: example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/clean
-example/velodyne_simulator/velodyne_gazebo_plugins/clean: example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/clean
-
-.PHONY : example/velodyne_simulator/velodyne_gazebo_plugins/clean
-
-#=============================================================================
-# Directory level rules for directory example/velodyne_simulator/velodyne_simulator
-
-# Recursive "all" directory target.
-example/velodyne_simulator/velodyne_simulator/all:
-
-.PHONY : example/velodyne_simulator/velodyne_simulator/all
-
-# Recursive "preinstall" directory target.
-example/velodyne_simulator/velodyne_simulator/preinstall:
-
-.PHONY : example/velodyne_simulator/velodyne_simulator/preinstall
-
-# Recursive "clean" directory target.
-example/velodyne_simulator/velodyne_simulator/clean:
-
-.PHONY : example/velodyne_simulator/velodyne_simulator/clean
 
 #=============================================================================
 # Directory level rules for directory gtest
@@ -778,7 +671,7 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmoc
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=9,10 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=5,6 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -805,7 +698,7 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 gtest/googlemock/CMakeFiles/gmock.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=7,8 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=3,4 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -832,7 +725,7 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 gtest/googletest/CMakeFiles/gtest_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=13,14 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=9,10 "Built target gtest_main"
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -859,7 +752,7 @@ gtest/googletest/CMakeFiles/gtest_main.dir/clean:
 gtest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=11,12 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=7,8 "Built target gtest"
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -974,7 +867,7 @@ LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_mapOptmization.dir/all: LOAM/LIO-SAM-noet
 LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_mapOptmization.dir/all: LOAM/LIO-SAM-noetic/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_mapOptmization.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_mapOptmization.dir/depend
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_mapOptmization.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_mapOptmization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=38,39 "Built target lio_sam_mapOptmization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=34,35 "Built target lio_sam_mapOptmization"
 .PHONY : LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_mapOptmization.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1062,7 +955,7 @@ LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_featureExtraction.dir/all: LOAM/LIO-SAM-n
 LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_featureExtraction.dir/all: LOAM/LIO-SAM-noetic/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_featureExtraction.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_featureExtraction.dir/depend
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_featureExtraction.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_featureExtraction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=19,20 "Built target lio_sam_featureExtraction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=15,16 "Built target lio_sam_featureExtraction"
 .PHONY : LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_featureExtraction.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1150,7 +1043,7 @@ LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_imageProjection.dir/all: LOAM/LIO-SAM-noe
 LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_imageProjection.dir/all: LOAM/LIO-SAM-noetic/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_imageProjection.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_imageProjection.dir/depend
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_imageProjection.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_imageProjection.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=34,35 "Built target lio_sam_imageProjection"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=30,31 "Built target lio_sam_imageProjection"
 .PHONY : LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_imageProjection.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1182,7 +1075,7 @@ LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_py.dir/all: LOAM/LIO-SA
 LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_py.dir/all: LOAM/LIO-SAM-noetic/CMakeFiles/_lio_sam_generate_messages_check_deps_save_map.dir/all
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_py.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_py.dir/depend
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_py.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=30,31,32,33 "Built target lio_sam_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=26,27,28,29 "Built target lio_sam_generate_messages_py"
 .PHONY : LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1214,7 +1107,7 @@ LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_nodejs.dir/all: LOAM/LI
 LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_nodejs.dir/all: LOAM/LIO-SAM-noetic/CMakeFiles/_lio_sam_generate_messages_check_deps_save_map.dir/all
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_nodejs.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_nodejs.dir/depend
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_nodejs.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=28,29 "Built target lio_sam_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=24,25 "Built target lio_sam_generate_messages_nodejs"
 .PHONY : LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1241,7 +1134,7 @@ LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_nodejs.dir/clean:
 LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_imuPreintegration.dir/all:
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_imuPreintegration.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_imuPreintegration.dir/depend
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_imuPreintegration.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_imuPreintegration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=36,37 "Built target lio_sam_imuPreintegration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=32,33 "Built target lio_sam_imuPreintegration"
 .PHONY : LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_imuPreintegration.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1327,7 +1220,7 @@ LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_eus.dir/all: LOAM/LIO-S
 LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_eus.dir/all: LOAM/LIO-SAM-noetic/CMakeFiles/_lio_sam_generate_messages_check_deps_save_map.dir/all
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_eus.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_eus.dir/depend
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_eus.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=23,24,25 "Built target lio_sam_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=19,20,21 "Built target lio_sam_generate_messages_eus"
 .PHONY : LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1359,7 +1252,7 @@ LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_cpp.dir/all: LOAM/LIO-S
 LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_cpp.dir/all: LOAM/LIO-SAM-noetic/CMakeFiles/_lio_sam_generate_messages_check_deps_save_map.dir/all
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_cpp.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_cpp.dir/depend
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_cpp.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=21,22 "Built target lio_sam_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=17,18 "Built target lio_sam_generate_messages_cpp"
 .PHONY : LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1449,7 +1342,7 @@ LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_lisp.dir/all: LOAM/LIO-
 LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_lisp.dir/all: LOAM/LIO-SAM-noetic/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_lisp.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_lisp.dir/depend
 	$(MAKE) -f LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_lisp.dir/build.make LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=26,27 "Built target lio_sam_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=22,23 "Built target lio_sam_generate_messages_lisp"
 .PHONY : LOAM/LIO-SAM-noetic/CMakeFiles/lio_sam_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3204,7 +3097,7 @@ LOAM/LIO-SAM-noetic/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/c
 LOAM/loam_velodyne/CMakeFiles/multiScanRegistration.dir/all: LOAM/loam_velodyne/src/lib/CMakeFiles/loam.dir/all
 	$(MAKE) -f LOAM/loam_velodyne/CMakeFiles/multiScanRegistration.dir/build.make LOAM/loam_velodyne/CMakeFiles/multiScanRegistration.dir/depend
 	$(MAKE) -f LOAM/loam_velodyne/CMakeFiles/multiScanRegistration.dir/build.make LOAM/loam_velodyne/CMakeFiles/multiScanRegistration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=50,51 "Built target multiScanRegistration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=46,47 "Built target multiScanRegistration"
 .PHONY : LOAM/loam_velodyne/CMakeFiles/multiScanRegistration.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3231,7 +3124,7 @@ LOAM/loam_velodyne/CMakeFiles/multiScanRegistration.dir/clean:
 LOAM/loam_velodyne/CMakeFiles/laserOdometry.dir/all: LOAM/loam_velodyne/src/lib/CMakeFiles/loam.dir/all
 	$(MAKE) -f LOAM/loam_velodyne/CMakeFiles/laserOdometry.dir/build.make LOAM/loam_velodyne/CMakeFiles/laserOdometry.dir/depend
 	$(MAKE) -f LOAM/loam_velodyne/CMakeFiles/laserOdometry.dir/build.make LOAM/loam_velodyne/CMakeFiles/laserOdometry.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=17,18 "Built target laserOdometry"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=13,14 "Built target laserOdometry"
 .PHONY : LOAM/loam_velodyne/CMakeFiles/laserOdometry.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3289,7 +3182,7 @@ LOAM/loam_velodyne/CMakeFiles/run_tests_loam_velodyne_rostest_test_loam.test.dir
 LOAM/loam_velodyne/CMakeFiles/laserMapping.dir/all: LOAM/loam_velodyne/src/lib/CMakeFiles/loam.dir/all
 	$(MAKE) -f LOAM/loam_velodyne/CMakeFiles/laserMapping.dir/build.make LOAM/loam_velodyne/CMakeFiles/laserMapping.dir/depend
 	$(MAKE) -f LOAM/loam_velodyne/CMakeFiles/laserMapping.dir/build.make LOAM/loam_velodyne/CMakeFiles/laserMapping.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=15,16 "Built target laserMapping"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=11,12 "Built target laserMapping"
 .PHONY : LOAM/loam_velodyne/CMakeFiles/laserMapping.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3316,7 +3209,7 @@ LOAM/loam_velodyne/CMakeFiles/laserMapping.dir/clean:
 LOAM/loam_velodyne/CMakeFiles/transformMaintenance.dir/all: LOAM/loam_velodyne/src/lib/CMakeFiles/loam.dir/all
 	$(MAKE) -f LOAM/loam_velodyne/CMakeFiles/transformMaintenance.dir/build.make LOAM/loam_velodyne/CMakeFiles/transformMaintenance.dir/depend
 	$(MAKE) -f LOAM/loam_velodyne/CMakeFiles/transformMaintenance.dir/build.make LOAM/loam_velodyne/CMakeFiles/transformMaintenance.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=54,55 "Built target transformMaintenance"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=48,49 "Built target transformMaintenance"
 .PHONY : LOAM/loam_velodyne/CMakeFiles/transformMaintenance.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3565,7 +3458,7 @@ LOAM/loam_velodyne/CMakeFiles/clean_test_results_loam_velodyne.dir/clean:
 LOAM/loam_velodyne/src/lib/CMakeFiles/loam.dir/all:
 	$(MAKE) -f LOAM/loam_velodyne/src/lib/CMakeFiles/loam.dir/build.make LOAM/loam_velodyne/src/lib/CMakeFiles/loam.dir/depend
 	$(MAKE) -f LOAM/loam_velodyne/src/lib/CMakeFiles/loam.dir/build.make LOAM/loam_velodyne/src/lib/CMakeFiles/loam.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48,49 "Built target loam"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=36,37,38,39,40,41,42,43,44,45 "Built target loam"
 .PHONY : LOAM/loam_velodyne/src/lib/CMakeFiles/loam.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3869,7 +3762,7 @@ turtlebot_example/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: 
 turtlebot_example/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all: turtlebot_example/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/all
 	$(MAKE) -f turtlebot_example/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot_example/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/depend
 	$(MAKE) -f turtlebot_example/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot_example/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=56,57 "Built target turtlebot3_diagnostics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=50,51 "Built target turtlebot3_diagnostics"
 .PHONY : turtlebot_example/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3977,7 +3870,7 @@ turtlebot_example/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtl
 turtlebot_example/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all: turtlebot_example/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/all
 	$(MAKE) -f turtlebot_example/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build.make turtlebot_example/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/depend
 	$(MAKE) -f turtlebot_example/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build.make turtlebot_example/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=60,61 "Built target turtlebot3_fake_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=54,55 "Built target turtlebot3_fake_node"
 .PHONY : turtlebot_example/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4534,7 +4427,7 @@ turtlebot_example/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtleb
 turtlebot_example/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all: turtlebot_example/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f turtlebot_example/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build.make turtlebot_example/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/depend
 	$(MAKE) -f turtlebot_example/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build.make turtlebot_example/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=58,59 "Built target turtlebot3_drive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=52,53 "Built target turtlebot3_drive"
 .PHONY : turtlebot_example/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4739,87 +4632,6 @@ flat_world_imu_node: turtlebot_example/turtlebot3_slam/CMakeFiles/flat_world_imu
 turtlebot_example/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/clean:
 	$(MAKE) -f turtlebot_example/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/build.make turtlebot_example/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/clean
 .PHONY : turtlebot_example/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/clean
-
-#=============================================================================
-# Target rules for target example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir
-
-# All Build rule for target.
-example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/all:
-	$(MAKE) -f example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/build.make example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/depend
-	$(MAKE) -f example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/build.make example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=3,4 "Built target gazebo_ros_velodyne_gpu_laser"
-.PHONY : example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/all
-
-# Build rule for subdir invocation for target.
-example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles 0
-.PHONY : example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/rule
-
-# Convenience name for target.
-gazebo_ros_velodyne_gpu_laser: example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/rule
-
-.PHONY : gazebo_ros_velodyne_gpu_laser
-
-# clean rule for target.
-example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/clean:
-	$(MAKE) -f example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/build.make example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/clean
-.PHONY : example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/clean
-
-#=============================================================================
-# Target rules for target example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir
-
-# All Build rule for target.
-example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/all:
-	$(MAKE) -f example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/build.make example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/depend
-	$(MAKE) -f example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/build.make example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=5,6 "Built target gazebo_ros_velodyne_laser"
-.PHONY : example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/all
-
-# Build rule for subdir invocation for target.
-example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles 0
-.PHONY : example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/rule
-
-# Convenience name for target.
-gazebo_ros_velodyne_laser: example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/rule
-
-.PHONY : gazebo_ros_velodyne_laser
-
-# clean rule for target.
-example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/clean:
-	$(MAKE) -f example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/build.make example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/clean
-.PHONY : example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/clean
-
-#=============================================================================
-# Target rules for target example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir
-
-# All Build rule for target.
-example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/all:
-	$(MAKE) -f example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/build.make example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/depend
-	$(MAKE) -f example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/build.make example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles --progress-num=52,53 "Built target steer_mini_gazebo_node"
-.PHONY : example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/all
-
-# Build rule for subdir invocation for target.
-example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles 0
-.PHONY : example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/rule
-
-# Convenience name for target.
-steer_mini_gazebo_node: example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/rule
-
-.PHONY : steer_mini_gazebo_node
-
-# clean rule for target.
-example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/clean:
-	$(MAKE) -f example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/build.make example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/clean
-.PHONY : example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/clean
 
 #=============================================================================
 # Target rules for target turtlebot_example/turtlebot3_description/CMakeFiles/turtlebot3_description_xacro_generated_to_devel_space_.dir

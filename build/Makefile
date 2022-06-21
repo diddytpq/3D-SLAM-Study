@@ -1949,45 +1949,6 @@ flat_world_imu_node/fast:
 .PHONY : flat_world_imu_node/fast
 
 #=============================================================================
-# Target rules for targets named gazebo_ros_velodyne_gpu_laser
-
-# Build rule for target.
-gazebo_ros_velodyne_gpu_laser: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gazebo_ros_velodyne_gpu_laser
-.PHONY : gazebo_ros_velodyne_gpu_laser
-
-# fast build rule for target.
-gazebo_ros_velodyne_gpu_laser/fast:
-	$(MAKE) -f example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/build.make example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/build
-.PHONY : gazebo_ros_velodyne_gpu_laser/fast
-
-#=============================================================================
-# Target rules for targets named gazebo_ros_velodyne_laser
-
-# Build rule for target.
-gazebo_ros_velodyne_laser: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gazebo_ros_velodyne_laser
-.PHONY : gazebo_ros_velodyne_laser
-
-# fast build rule for target.
-gazebo_ros_velodyne_laser/fast:
-	$(MAKE) -f example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/build.make example/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/build
-.PHONY : gazebo_ros_velodyne_laser/fast
-
-#=============================================================================
-# Target rules for targets named steer_mini_gazebo_node
-
-# Build rule for target.
-steer_mini_gazebo_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 steer_mini_gazebo_node
-.PHONY : steer_mini_gazebo_node
-
-# fast build rule for target.
-steer_mini_gazebo_node/fast:
-	$(MAKE) -f example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/build.make example/steer_mini_gazebo/CMakeFiles/steer_mini_gazebo_node.dir/build
-.PHONY : steer_mini_gazebo_node/fast
-
-#=============================================================================
 # Target rules for targets named turtlebot3_description_xacro_generated_to_devel_space_
 
 # Build rule for target.
@@ -2150,9 +2111,6 @@ help:
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
 	@echo "... gazebo_msgs_generate_messages_lisp"
 	@echo "... flat_world_imu_node"
-	@echo "... gazebo_ros_velodyne_gpu_laser"
-	@echo "... gazebo_ros_velodyne_laser"
-	@echo "... steer_mini_gazebo_node"
 	@echo "... turtlebot3_description_xacro_generated_to_devel_space_"
 .PHONY : help
 
