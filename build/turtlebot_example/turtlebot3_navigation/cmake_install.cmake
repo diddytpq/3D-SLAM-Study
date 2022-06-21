@@ -1,8 +1,8 @@
-# Install script for directory: /home/yoseph/worckspace/3D-SLAM-Study/src/turtlebot_example/turtlebot3_navigation
+# Install script for directory: /home/yang/workspace/3D-SLAM-Study/src/turtlebot_example/turtlebot3_navigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yoseph/worckspace/3D-SLAM-Study/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yang/workspace/3D-SLAM-Study/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,26 +38,26 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigation.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigation.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation/cmake" TYPE FILE FILES
-    "/home/yoseph/worckspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig.cmake"
-    "/home/yoseph/worckspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig-version.cmake"
+    "/home/yang/workspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig.cmake"
+    "/home/yang/workspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/turtlebot_example/turtlebot3_navigation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/src/turtlebot_example/turtlebot3_navigation/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation" TYPE DIRECTORY FILES
-    "/home/yoseph/worckspace/3D-SLAM-Study/src/turtlebot_example/turtlebot3_navigation/launch"
-    "/home/yoseph/worckspace/3D-SLAM-Study/src/turtlebot_example/turtlebot3_navigation/maps"
-    "/home/yoseph/worckspace/3D-SLAM-Study/src/turtlebot_example/turtlebot3_navigation/param"
-    "/home/yoseph/worckspace/3D-SLAM-Study/src/turtlebot_example/turtlebot3_navigation/rviz"
+    "/home/yang/workspace/3D-SLAM-Study/src/turtlebot_example/turtlebot3_navigation/launch"
+    "/home/yang/workspace/3D-SLAM-Study/src/turtlebot_example/turtlebot3_navigation/maps"
+    "/home/yang/workspace/3D-SLAM-Study/src/turtlebot_example/turtlebot3_navigation/param"
+    "/home/yang/workspace/3D-SLAM-Study/src/turtlebot_example/turtlebot3_navigation/rviz"
     )
 endif()
 

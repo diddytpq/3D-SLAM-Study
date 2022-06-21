@@ -1,8 +1,8 @@
-# Install script for directory: /home/yoseph/worckspace/3D-SLAM-Study/src/example/neor_mini
+# Install script for directory: /home/yang/workspace/3D-SLAM-Study/src/example/neor_mini
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yoseph/worckspace/3D-SLAM-Study/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yang/workspace/3D-SLAM-Study/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,33 +38,33 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/build/example/neor_mini/catkin_generated/installspace/neor_mini.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/build/example/neor_mini/catkin_generated/installspace/neor_mini.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/neor_mini/cmake" TYPE FILE FILES
-    "/home/yoseph/worckspace/3D-SLAM-Study/build/example/neor_mini/catkin_generated/installspace/neor_miniConfig.cmake"
-    "/home/yoseph/worckspace/3D-SLAM-Study/build/example/neor_mini/catkin_generated/installspace/neor_miniConfig-version.cmake"
+    "/home/yang/workspace/3D-SLAM-Study/build/example/neor_mini/catkin_generated/installspace/neor_miniConfig.cmake"
+    "/home/yang/workspace/3D-SLAM-Study/build/example/neor_mini/catkin_generated/installspace/neor_miniConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/neor_mini" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/example/neor_mini/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/neor_mini" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/src/example/neor_mini/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/neor_mini/config" TYPE DIRECTORY FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/example/neor_mini/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/neor_mini/config" TYPE DIRECTORY FILES "/home/yang/workspace/3D-SLAM-Study/src/example/neor_mini/config/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/neor_mini/launch" TYPE DIRECTORY FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/example/neor_mini/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/neor_mini/launch" TYPE DIRECTORY FILES "/home/yang/workspace/3D-SLAM-Study/src/example/neor_mini/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/neor_mini/meshes" TYPE DIRECTORY FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/example/neor_mini/meshes/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/neor_mini/meshes" TYPE DIRECTORY FILES "/home/yang/workspace/3D-SLAM-Study/src/example/neor_mini/meshes/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/neor_mini/urdf" TYPE DIRECTORY FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/example/neor_mini/urdf/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/neor_mini/urdf" TYPE DIRECTORY FILES "/home/yang/workspace/3D-SLAM-Study/src/example/neor_mini/urdf/")
 endif()
 

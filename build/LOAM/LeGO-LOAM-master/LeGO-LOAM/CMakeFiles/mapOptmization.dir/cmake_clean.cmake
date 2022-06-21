@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/mapOptmization"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/mapOptmization.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/lego_loam/mapOptmization"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/lego_loam/mapOptmization.pdb"
   "CMakeFiles/mapOptmization.dir/src/mapOptmization.cpp.o"
 )
 

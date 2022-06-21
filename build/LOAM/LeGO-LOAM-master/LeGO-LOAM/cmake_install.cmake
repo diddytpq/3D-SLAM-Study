@@ -1,8 +1,8 @@
-# Install script for directory: /home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/LeGO-LOAM
+# Install script for directory: /home/yang/workspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/LeGO-LOAM
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yoseph/worckspace/3D-SLAM-Study/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yang/workspace/3D-SLAM-Study/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/LeGO-LOAM/catkin_generated/installspace/lego_loam.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/LeGO-LOAM/catkin_generated/installspace/lego_loam.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lego_loam/cmake" TYPE FILE FILES
-    "/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/LeGO-LOAM/catkin_generated/installspace/lego_loamConfig.cmake"
-    "/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/LeGO-LOAM/catkin_generated/installspace/lego_loamConfig-version.cmake"
+    "/home/yang/workspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/LeGO-LOAM/catkin_generated/installspace/lego_loamConfig.cmake"
+    "/home/yang/workspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/LeGO-LOAM/catkin_generated/installspace/lego_loamConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lego_loam" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/LeGO-LOAM/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lego_loam" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/LeGO-LOAM/package.xml")
 endif()
 

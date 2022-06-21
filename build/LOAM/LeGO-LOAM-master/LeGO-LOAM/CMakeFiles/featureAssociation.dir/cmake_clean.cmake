@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/featureAssociation"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/featureAssociation.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/lego_loam/featureAssociation"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/lego_loam/featureAssociation.pdb"
   "CMakeFiles/featureAssociation.dir/src/featureAssociation.cpp.o"
 )
 

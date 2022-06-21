@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lio_sam/lio_sam_imageProjection"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lio_sam/lio_sam_imageProjection.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/lio_sam/lio_sam_imageProjection"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/lio_sam/lio_sam_imageProjection.pdb"
   "CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o"
 )
 

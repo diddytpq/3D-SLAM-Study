@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/include/cloud_msgs/cloud_info.h"
+  "/home/yang/workspace/3D-SLAM-Study/devel/include/cloud_msgs/cloud_info.h"
   "CMakeFiles/cloud_msgs_generate_messages_cpp"
 )
 
