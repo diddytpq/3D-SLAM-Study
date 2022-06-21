@@ -5,7 +5,7 @@
 rosbag record -a
 roscore
 rosparam set /use_sim_time true
-rosbag play --clock --pause 2022-06-13-16-58-32.bag
+rosbag play --clock --pause rosbag/2022-06-21-15-37-37.bag
 ```
 
 

@@ -18,7 +18,7 @@ from tools.mecanum_key_utils import *
 roslib.load_manifest('mecanum_robot_gazebo')
 
 
-accel = 0.3
+accel = 0.1
 
 def getKey():
     if os.name == 'nt':

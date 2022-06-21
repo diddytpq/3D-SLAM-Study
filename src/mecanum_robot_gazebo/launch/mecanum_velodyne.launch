@@ -6,7 +6,7 @@
 
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find mecanum_robot_gazebo)/worlds/house.world"/>
+    <arg name="world_name" value="$(find mecanum_robot_gazebo)/worlds/district.world"/>
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
@@ -33,6 +33,6 @@
     <!-- <remap from="/joint_states" to="/mecanum/joint_states" /> -->
   </node>
 
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find mecanum_robot_gazebo)/rviz/mecanum_velodyne_rviz.rviz"/>
+  <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find mecanum_robot_gazebo)/rviz/mecanum_velodyne_rviz.rviz"/> -->
 
 </launch>
