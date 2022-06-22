@@ -18,7 +18,7 @@ from tools.mecanum_key_utils import *
 roslib.load_manifest('mecanum_robot_gazebo')
 
 
-accel = 0.1
+accel = 0.05
 
 def getKey():
     if os.name == 'nt':
@@ -67,11 +67,11 @@ if __name__ == '__main__':
                 linear, angular_z = move_mecanum(linear, angular_z)
 
             elif key == 'q' :
-                angular_z += 0.3
+                angular_z += 0.1
                 linear, angular_z = move_mecanum(linear, angular_z)
 
             elif key == 'e' :
-                angular_z -= 0.3
+                angular_z -= 0.1
                 linear, angular_z = move_mecanum(linear, angular_z)
 
             elif key == 's' :

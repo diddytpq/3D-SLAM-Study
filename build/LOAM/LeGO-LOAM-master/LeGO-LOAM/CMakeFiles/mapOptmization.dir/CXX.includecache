@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+/home/yang/workspace/3D-SLAM-Study/devel/include/cloud_msgs/cloud_info.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+
 /home/yang/workspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/LeGO-LOAM/include/utility.h
 ros/ros.h
 -

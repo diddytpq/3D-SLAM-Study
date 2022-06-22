@@ -5,9 +5,17 @@
 rosbag record -a
 roscore
 rosparam set /use_sim_time true
-rosbag play --clock --pause rosbag/2022-06-21-15-37-37.bag
+rosbag play --clock --pause rosbag/*.bag
 ```
 
+## Run SLAM gazebo simulation
+```bash
+roslaunch steer_mini_gazebo test.launch
+
+roslaunch mecanum_robot_gazebo mecanum_velodyne.launch
+
+
+```
 
 ## Run Loam-velodyne vlp 16
 ```bash
@@ -18,10 +26,15 @@ rosrun tf static_transform_publisher 0 0 0 0 0 1.57 /map /camera_init 10
 
 
 
-## Run SLAM gazebo simulation
-```bash
-roslaunch steer_mini_gazebo test.launch
 
+
+
+## Run lego loam 
+```bash
+roslaunch lego_loam run.launch 
+rosbag play --clock --pause rosbag/lego_loam_test_gazebo.bag --topic /velodyne_points /tf
 
 ```
+
+
 
