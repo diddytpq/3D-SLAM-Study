@@ -1,4 +1,4 @@
-prefix=/home/yang/workspace/3D-SLAM-Study/install
+prefix=/home/yoseph/worckspace/3D-SLAM-Study/install
 
 Name: turtlebot3_fake
 Description: Description of turtlebot3_fake

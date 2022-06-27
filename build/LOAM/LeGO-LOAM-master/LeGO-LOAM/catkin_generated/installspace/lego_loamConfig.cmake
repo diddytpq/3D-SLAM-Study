@@ -67,14 +67,14 @@ set(lego_loam_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(lego_loam_SOURCE_PREFIX /home/yang/workspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/LeGO-LOAM)
-  set(lego_loam_DEVEL_PREFIX /home/yang/workspace/3D-SLAM-Study/devel)
+  set(lego_loam_SOURCE_PREFIX /home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/LeGO-LOAM)
+  set(lego_loam_DEVEL_PREFIX /home/yoseph/worckspace/3D-SLAM-Study/devel)
   set(lego_loam_INSTALL_PREFIX "")
   set(lego_loam_PREFIX ${lego_loam_DEVEL_PREFIX})
 else()
   set(lego_loam_SOURCE_PREFIX "")
   set(lego_loam_DEVEL_PREFIX "")
-  set(lego_loam_INSTALL_PREFIX /home/yang/workspace/3D-SLAM-Study/install)
+  set(lego_loam_INSTALL_PREFIX /home/yoseph/worckspace/3D-SLAM-Study/install)
   set(lego_loam_PREFIX ${lego_loam_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/yang/workspace/3D-SLAM-Study/install/lib;/home/yang/workspace/3D-SLAM-Study/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/yoseph/worckspace/3D-SLAM-Study/install/lib;/home/yoseph/worckspace/omni-mecanum-mobile-platform-gazebo/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

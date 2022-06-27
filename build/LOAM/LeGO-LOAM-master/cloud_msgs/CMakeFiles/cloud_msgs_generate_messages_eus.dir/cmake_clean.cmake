@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yang/workspace/3D-SLAM-Study/devel/share/roseus/ros/cloud_msgs/manifest.l"
-  "/home/yang/workspace/3D-SLAM-Study/devel/share/roseus/ros/cloud_msgs/msg/cloud_info.l"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/roseus/ros/cloud_msgs/manifest.l"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/roseus/ros/cloud_msgs/msg/cloud_info.l"
   "CMakeFiles/cloud_msgs_generate_messages_eus"
 )
 

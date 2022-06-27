@@ -1,8 +1,8 @@
-# Install script for directory: /home/yang/workspace/3D-SLAM-Study/src/LOAM/loam_velodyne/src/lib
+# Install script for directory: /home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/loam_velodyne/src/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yang/workspace/3D-SLAM-Study/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yoseph/worckspace/3D-SLAM-Study/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

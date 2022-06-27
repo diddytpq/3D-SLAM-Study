@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yang/workspace/3D-SLAM-Study/devel/lib/lego_loam/imageProjection"
-  "/home/yang/workspace/3D-SLAM-Study/devel/lib/lego_loam/imageProjection.pdb"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/imageProjection"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/imageProjection.pdb"
   "CMakeFiles/imageProjection.dir/src/imageProjection.cpp.o"
 )
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/yang/workspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/cloud_msgs
+# Install script for directory: /home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/cloud_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yang/workspace/3D-SLAM-Study/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yoseph/worckspace/3D-SLAM-Study/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,53 +38,53 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloud_msgs/msg" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/cloud_msgs/msg/cloud_info.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloud_msgs/msg" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/cloud_msgs/msg/cloud_info.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloud_msgs/cmake" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/cloud_msgs/catkin_generated/installspace/cloud_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloud_msgs/cmake" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/cloud_msgs/catkin_generated/installspace/cloud_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/yang/workspace/3D-SLAM-Study/devel/include/cloud_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/yoseph/worckspace/3D-SLAM-Study/devel/include/cloud_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/yang/workspace/3D-SLAM-Study/devel/share/roseus/ros/cloud_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/roseus/ros/cloud_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/yang/workspace/3D-SLAM-Study/devel/share/common-lisp/ros/cloud_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/common-lisp/ros/cloud_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/yang/workspace/3D-SLAM-Study/devel/share/gennodejs/ros/cloud_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/gennodejs/ros/cloud_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/yang/workspace/3D-SLAM-Study/devel/lib/python3/dist-packages/cloud_msgs")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/python3/dist-packages/cloud_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/yang/workspace/3D-SLAM-Study/devel/lib/python3/dist-packages/cloud_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/python3/dist-packages/cloud_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/cloud_msgs/catkin_generated/installspace/cloud_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/cloud_msgs/catkin_generated/installspace/cloud_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloud_msgs/cmake" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/cloud_msgs/catkin_generated/installspace/cloud_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloud_msgs/cmake" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/cloud_msgs/catkin_generated/installspace/cloud_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloud_msgs/cmake" TYPE FILE FILES
-    "/home/yang/workspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/cloud_msgs/catkin_generated/installspace/cloud_msgsConfig.cmake"
-    "/home/yang/workspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/cloud_msgs/catkin_generated/installspace/cloud_msgsConfig-version.cmake"
+    "/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/cloud_msgs/catkin_generated/installspace/cloud_msgsConfig.cmake"
+    "/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/cloud_msgs/catkin_generated/installspace/cloud_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloud_msgs" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/cloud_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloud_msgs" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/cloud_msgs/package.xml")
 endif()
 

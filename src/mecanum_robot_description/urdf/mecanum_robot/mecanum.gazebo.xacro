@@ -52,7 +52,7 @@
       <material>Gazebo/Grey</material>
     </gazebo>
 
-    <!-- <gazebo>
+    <gazebo>
       <plugin name="imu_plugin" filename="libgazebo_ros_imu.so">
         <alwaysOn>true</alwaysOn>
         <bodyName>imu_link</bodyName>
@@ -79,7 +79,7 @@
           </noise>
         </imu>
       </plugin>
-    </gazebo> -->
+    </gazebo>
 
     <!-- <gazebo reference="front_R_wheel">
       <mu1>1.0</mu1>

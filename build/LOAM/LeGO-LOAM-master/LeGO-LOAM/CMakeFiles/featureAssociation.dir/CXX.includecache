@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/yang/workspace/3D-SLAM-Study/devel/include/cloud_msgs/cloud_info.h
+/home/yoseph/worckspace/3D-SLAM-Study/devel/include/cloud_msgs/cloud_info.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/yang/workspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/LeGO-LOAM/include/utility.h
+/home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/LeGO-LOAM/include/utility.h
 ros/ros.h
 -
 sensor_msgs/Imu.h
@@ -34,7 +34,7 @@ sensor_msgs/PointCloud2.h
 nav_msgs/Odometry.h
 -
 cloud_msgs/cloud_info.h
-/home/yang/workspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/LeGO-LOAM/include/cloud_msgs/cloud_info.h
+/home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/LeGO-LOAM/include/cloud_msgs/cloud_info.h
 opencv2/opencv.hpp
 -
 pcl/point_cloud.h
@@ -96,9 +96,9 @@ thread
 mutex
 -
 
-/home/yang/workspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/LeGO-LOAM/src/featureAssociation.cpp
+/home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/LeGO-LOAM/src/featureAssociation.cpp
 utility.h
-/home/yang/workspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/LeGO-LOAM/src/utility.h
+/home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LeGO-LOAM-master/LeGO-LOAM/src/utility.h
 
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string

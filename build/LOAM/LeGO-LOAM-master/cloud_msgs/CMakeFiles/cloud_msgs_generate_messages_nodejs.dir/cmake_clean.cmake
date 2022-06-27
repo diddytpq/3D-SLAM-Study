@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/yang/workspace/3D-SLAM-Study/devel/share/gennodejs/ros/cloud_msgs/msg/cloud_info.js"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/gennodejs/ros/cloud_msgs/msg/cloud_info.js"
   "CMakeFiles/cloud_msgs_generate_messages_nodejs"
 )
 

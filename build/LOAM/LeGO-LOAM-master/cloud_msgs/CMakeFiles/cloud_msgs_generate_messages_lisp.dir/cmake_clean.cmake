@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/yang/workspace/3D-SLAM-Study/devel/share/common-lisp/ros/cloud_msgs/msg/cloud_info.lisp"
+  "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/common-lisp/ros/cloud_msgs/msg/cloud_info.lisp"
   "CMakeFiles/cloud_msgs_generate_messages_lisp"
 )
 

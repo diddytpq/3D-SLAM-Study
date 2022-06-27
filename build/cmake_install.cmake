@@ -1,8 +1,8 @@
-# Install script for directory: /home/yang/workspace/3D-SLAM-Study/src
+# Install script for directory: /home/yoseph/worckspace/3D-SLAM-Study/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yang/workspace/3D-SLAM-Study/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yoseph/worckspace/3D-SLAM-Study/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,104 +49,104 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/yang/workspace/3D-SLAM-Study/install/_setup_util.py")
+   "/home/yoseph/worckspace/3D-SLAM-Study/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/yang/workspace/3D-SLAM-Study/install" TYPE PROGRAM FILES "/home/yang/workspace/3D-SLAM-Study/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/yoseph/worckspace/3D-SLAM-Study/install" TYPE PROGRAM FILES "/home/yoseph/worckspace/3D-SLAM-Study/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/yang/workspace/3D-SLAM-Study/install/env.sh")
+   "/home/yoseph/worckspace/3D-SLAM-Study/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/yang/workspace/3D-SLAM-Study/install" TYPE PROGRAM FILES "/home/yang/workspace/3D-SLAM-Study/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/yoseph/worckspace/3D-SLAM-Study/install" TYPE PROGRAM FILES "/home/yoseph/worckspace/3D-SLAM-Study/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/yang/workspace/3D-SLAM-Study/install/setup.bash;/home/yang/workspace/3D-SLAM-Study/install/local_setup.bash")
+   "/home/yoseph/worckspace/3D-SLAM-Study/install/setup.bash;/home/yoseph/worckspace/3D-SLAM-Study/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/yang/workspace/3D-SLAM-Study/install" TYPE FILE FILES
-    "/home/yang/workspace/3D-SLAM-Study/build/catkin_generated/installspace/setup.bash"
-    "/home/yang/workspace/3D-SLAM-Study/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/yoseph/worckspace/3D-SLAM-Study/install" TYPE FILE FILES
+    "/home/yoseph/worckspace/3D-SLAM-Study/build/catkin_generated/installspace/setup.bash"
+    "/home/yoseph/worckspace/3D-SLAM-Study/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/yang/workspace/3D-SLAM-Study/install/setup.sh;/home/yang/workspace/3D-SLAM-Study/install/local_setup.sh")
+   "/home/yoseph/worckspace/3D-SLAM-Study/install/setup.sh;/home/yoseph/worckspace/3D-SLAM-Study/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/yang/workspace/3D-SLAM-Study/install" TYPE FILE FILES
-    "/home/yang/workspace/3D-SLAM-Study/build/catkin_generated/installspace/setup.sh"
-    "/home/yang/workspace/3D-SLAM-Study/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/yoseph/worckspace/3D-SLAM-Study/install" TYPE FILE FILES
+    "/home/yoseph/worckspace/3D-SLAM-Study/build/catkin_generated/installspace/setup.sh"
+    "/home/yoseph/worckspace/3D-SLAM-Study/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/yang/workspace/3D-SLAM-Study/install/setup.zsh;/home/yang/workspace/3D-SLAM-Study/install/local_setup.zsh")
+   "/home/yoseph/worckspace/3D-SLAM-Study/install/setup.zsh;/home/yoseph/worckspace/3D-SLAM-Study/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/yang/workspace/3D-SLAM-Study/install" TYPE FILE FILES
-    "/home/yang/workspace/3D-SLAM-Study/build/catkin_generated/installspace/setup.zsh"
-    "/home/yang/workspace/3D-SLAM-Study/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/yoseph/worckspace/3D-SLAM-Study/install" TYPE FILE FILES
+    "/home/yoseph/worckspace/3D-SLAM-Study/build/catkin_generated/installspace/setup.zsh"
+    "/home/yoseph/worckspace/3D-SLAM-Study/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/yang/workspace/3D-SLAM-Study/install/.rosinstall")
+   "/home/yoseph/worckspace/3D-SLAM-Study/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/yang/workspace/3D-SLAM-Study/install" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/yoseph/worckspace/3D-SLAM-Study/install" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/yang/workspace/3D-SLAM-Study/build/gtest/cmake_install.cmake")
-  include("/home/yang/workspace/3D-SLAM-Study/build/mecanum_robot_gazebo/cmake_install.cmake")
-  include("/home/yang/workspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/cloud_msgs/cmake_install.cmake")
-  include("/home/yang/workspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_navigation/cmake_install.cmake")
-  include("/home/yang/workspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_simulations/cmake_install.cmake")
-  include("/home/yang/workspace/3D-SLAM-Study/build/LOAM/LIO-SAM-noetic/cmake_install.cmake")
-  include("/home/yang/workspace/3D-SLAM-Study/build/LOAM/loam_velodyne/cmake_install.cmake")
-  include("/home/yang/workspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/LeGO-LOAM/cmake_install.cmake")
-  include("/home/yang/workspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_bringup/cmake_install.cmake")
-  include("/home/yang/workspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_fake/cmake_install.cmake")
-  include("/home/yang/workspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_gazebo/cmake_install.cmake")
-  include("/home/yang/workspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_slam/cmake_install.cmake")
-  include("/home/yang/workspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_teleop/cmake_install.cmake")
-  include("/home/yang/workspace/3D-SLAM-Study/build/mecanum_robot_description/cmake_install.cmake")
-  include("/home/yang/workspace/3D-SLAM-Study/build/example/neor_mini/cmake_install.cmake")
-  include("/home/yang/workspace/3D-SLAM-Study/build/example/steer_mini_gazebo/cmake_install.cmake")
-  include("/home/yang/workspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_description/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/gtest/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/mecanum_robot_gazebo/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/cloud_msgs/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_navigation/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_simulations/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LIO-SAM-noetic/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/loam_velodyne/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LeGO-LOAM-master/LeGO-LOAM/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_bringup/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_fake/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_gazebo/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_slam/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_teleop/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/mecanum_robot_description/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/example/neor_mini/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/example/steer_mini_gazebo/cmake_install.cmake")
+  include("/home/yoseph/worckspace/3D-SLAM-Study/build/turtlebot_example/turtlebot3_description/cmake_install.cmake")
 
 endif()
 
@@ -158,5 +158,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yang/workspace/3D-SLAM-Study/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yoseph/worckspace/3D-SLAM-Study/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
