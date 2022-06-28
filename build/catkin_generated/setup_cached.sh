@@ -7,10 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/yoseph/worckspace/3D-SLAM-Study/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/yoseph/worckspace/3D-SLAM-Study/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export LD_LIBRARY_PATH='/home/yoseph/worckspace/omni-mecanum-mobile-platform-gazebo/devel/lib:/opt/ros/noetic/lib'
+export PKG_CONFIG_PATH='/home/yoseph/worckspace/omni-mecanum-mobile-platform-gazebo/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig'
 export PWD='/home/yoseph/worckspace/3D-SLAM-Study/build'
-export PYTHONPATH="/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/yoseph/worckspace/3D-SLAM-Study/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/yoseph/worckspace/3D-SLAM-Study/src:$ROS_PACKAGE_PATH"
+export PYTHONPATH='/opt/ros/noetic/lib/python3/dist-packages'

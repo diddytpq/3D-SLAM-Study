@@ -248,11 +248,11 @@ transformFusion_EXTERNAL_OBJECTS =
 /home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
 /home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
 /home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libpcl_people.so
-/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0
+/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
 /home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libqhull.so
 /home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/libOpenNI.so
 /home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/libOpenNI2.so
@@ -394,6 +394,7 @@ transformFusion_EXTERNAL_OBJECTS =
 /home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 /home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 /home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0
 /home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/libOpenNI.so
 /home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/libOpenNI2.so
 /home/yoseph/worckspace/3D-SLAM-Study/devel/lib/lego_loam/transformFusion: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
