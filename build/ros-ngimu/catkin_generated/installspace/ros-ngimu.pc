@@ -1,0 +1,8 @@
+prefix=/home/yoseph/worckspace/3D-SLAM-Study/install
+
+Name: ros-ngimu
+Description: Description of ros-ngimu
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
