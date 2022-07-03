@@ -1,8 +1,8 @@
-# Install script for directory: /home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LIO-SAM
+# Install script for directory: /home/yang/workspace/3D-SLAM-Study/src/LOAM/LIO-SAM
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yoseph/worckspace/3D-SLAM-Study/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yang/workspace/3D-SLAM-Study/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,57 +38,57 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lio_sam/msg" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LIO-SAM/msg/cloud_info.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lio_sam/msg" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/src/LOAM/LIO-SAM/msg/cloud_info.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lio_sam/srv" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LIO-SAM/srv/save_map.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lio_sam/srv" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/src/LOAM/LIO-SAM/srv/save_map.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lio_sam/cmake" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LIO-SAM/catkin_generated/installspace/lio_sam-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lio_sam/cmake" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/build/LOAM/LIO-SAM/catkin_generated/installspace/lio_sam-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/yoseph/worckspace/3D-SLAM-Study/devel/include/lio_sam")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/yang/workspace/3D-SLAM-Study/devel/include/lio_sam")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/roseus/ros/lio_sam")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/yang/workspace/3D-SLAM-Study/devel/share/roseus/ros/lio_sam")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/common-lisp/ros/lio_sam")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/yang/workspace/3D-SLAM-Study/devel/share/common-lisp/ros/lio_sam")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/gennodejs/ros/lio_sam")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/yang/workspace/3D-SLAM-Study/devel/share/gennodejs/ros/lio_sam")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/python3/dist-packages/lio_sam")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/yang/workspace/3D-SLAM-Study/devel/lib/python3/dist-packages/lio_sam")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/python3/dist-packages/lio_sam")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/yang/workspace/3D-SLAM-Study/devel/lib/python3/dist-packages/lio_sam")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LIO-SAM/catkin_generated/installspace/lio_sam.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/build/LOAM/LIO-SAM/catkin_generated/installspace/lio_sam.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lio_sam/cmake" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LIO-SAM/catkin_generated/installspace/lio_sam-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lio_sam/cmake" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/build/LOAM/LIO-SAM/catkin_generated/installspace/lio_sam-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lio_sam/cmake" TYPE FILE FILES
-    "/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LIO-SAM/catkin_generated/installspace/lio_samConfig.cmake"
-    "/home/yoseph/worckspace/3D-SLAM-Study/build/LOAM/LIO-SAM/catkin_generated/installspace/lio_samConfig-version.cmake"
+    "/home/yang/workspace/3D-SLAM-Study/build/LOAM/LIO-SAM/catkin_generated/installspace/lio_samConfig.cmake"
+    "/home/yang/workspace/3D-SLAM-Study/build/LOAM/LIO-SAM/catkin_generated/installspace/lio_samConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lio_sam" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LIO-SAM/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lio_sam" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/src/LOAM/LIO-SAM/package.xml")
 endif()
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/velodyne_pointcloud/test_calibration"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/velodyne_pointcloud/test_calibration.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/velodyne_pointcloud/test_calibration"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/velodyne_pointcloud/test_calibration.pdb"
   "CMakeFiles/test_calibration.dir/test_calibration.cpp.o"
 )
 

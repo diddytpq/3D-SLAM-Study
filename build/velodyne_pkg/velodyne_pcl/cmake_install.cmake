@@ -1,8 +1,8 @@
-# Install script for directory: /home/yoseph/worckspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_pcl
+# Install script for directory: /home/yang/workspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_pcl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yoseph/worckspace/3D-SLAM-Study/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yang/workspace/3D-SLAM-Study/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_pcl/catkin_generated/installspace/velodyne_pcl.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_pcl/catkin_generated/installspace/velodyne_pcl.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_pcl/cmake" TYPE FILE FILES
-    "/home/yoseph/worckspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_pcl/catkin_generated/installspace/velodyne_pclConfig.cmake"
-    "/home/yoseph/worckspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_pcl/catkin_generated/installspace/velodyne_pclConfig-version.cmake"
+    "/home/yang/workspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_pcl/catkin_generated/installspace/velodyne_pclConfig.cmake"
+    "/home/yang/workspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_pcl/catkin_generated/installspace/velodyne_pclConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_pcl" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_pcl/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_pcl" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_pcl/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/velodyne_pcl" TYPE DIRECTORY FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_pcl/include/velodyne_pcl/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/velodyne_pcl" TYPE DIRECTORY FILES "/home/yang/workspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_pcl/include/velodyne_pcl/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 

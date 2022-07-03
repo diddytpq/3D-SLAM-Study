@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/velodyne_driver/velodyne_node"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/velodyne_driver/velodyne_node.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/velodyne_driver/velodyne_node"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/velodyne_driver/velodyne_node.pdb"
   "CMakeFiles/velodyne_node.dir/driver.cc.o"
   "CMakeFiles/velodyne_node.dir/velodyne_node.cc.o"
 )

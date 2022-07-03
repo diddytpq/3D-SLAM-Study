@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yoseph/worckspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_laserscan/src/nodelet.cpp" "/home/yoseph/worckspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/CMakeFiles/velodyne_laserscan.dir/src/nodelet.cpp.o"
-  "/home/yoseph/worckspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_laserscan/src/velodyne_laserscan.cpp" "/home/yoseph/worckspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o"
+  "/home/yang/workspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_laserscan/src/nodelet.cpp" "/home/yang/workspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/CMakeFiles/velodyne_laserscan.dir/src/nodelet.cpp.o"
+  "/home/yang/workspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_laserscan/src/velodyne_laserscan.cpp" "/home/yang/workspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,8 +19,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/include"
-  "/home/yoseph/worckspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_laserscan/include"
+  "/home/yang/workspace/3D-SLAM-Study/devel/include"
+  "/home/yang/workspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_laserscan/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/gennodejs/ros/velodyne_msgs/msg/VelodynePacket.js"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/gennodejs/ros/velodyne_msgs/msg/VelodyneScan.js"
+  "/home/yang/workspace/3D-SLAM-Study/devel/share/gennodejs/ros/velodyne_msgs/msg/VelodynePacket.js"
+  "/home/yang/workspace/3D-SLAM-Study/devel/share/gennodejs/ros/velodyne_msgs/msg/VelodyneScan.js"
   "CMakeFiles/velodyne_msgs_generate_messages_nodejs"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libcustom_control_plugin.pdb"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libcustom_control_plugin.so"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/libcustom_control_plugin.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/libcustom_control_plugin.so"
   "CMakeFiles/custom_control_plugin.dir/src/custom_control_plugin.cpp.o"
 )
 

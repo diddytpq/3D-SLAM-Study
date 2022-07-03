@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libtransform_nodelet.pdb"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libtransform_nodelet.so"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/libtransform_nodelet.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/libtransform_nodelet.so"
   "CMakeFiles/transform_nodelet.dir/transform.cc.o"
   "CMakeFiles/transform_nodelet.dir/transform_nodelet.cc.o"
 )

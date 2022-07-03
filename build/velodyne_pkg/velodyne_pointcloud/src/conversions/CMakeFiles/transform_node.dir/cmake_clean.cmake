@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/velodyne_pointcloud/transform_node"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/velodyne_pointcloud/transform_node.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/velodyne_pointcloud/transform_node"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/velodyne_pointcloud/transform_node.pdb"
   "CMakeFiles/transform_node.dir/transform.cc.o"
   "CMakeFiles/transform_node.dir/transform_node.cc.o"
 )

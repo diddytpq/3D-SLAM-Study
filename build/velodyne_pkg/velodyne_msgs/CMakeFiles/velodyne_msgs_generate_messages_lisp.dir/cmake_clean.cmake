@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/common-lisp/ros/velodyne_msgs/msg/VelodynePacket.lisp"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/share/common-lisp/ros/velodyne_msgs/msg/VelodyneScan.lisp"
+  "/home/yang/workspace/3D-SLAM-Study/devel/share/common-lisp/ros/velodyne_msgs/msg/VelodynePacket.lisp"
+  "/home/yang/workspace/3D-SLAM-Study/devel/share/common-lisp/ros/velodyne_msgs/msg/VelodyneScan.lisp"
   "CMakeFiles/velodyne_msgs_generate_messages_lisp"
 )
 

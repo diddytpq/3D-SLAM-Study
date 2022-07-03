@@ -1,8 +1,8 @@
-# Install script for directory: /home/yoseph/worckspace/3D-SLAM-Study/src/example/steer_mini_gazebo
+# Install script for directory: /home/yang/workspace/3D-SLAM-Study/src/example/steer_mini_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yoseph/worckspace/3D-SLAM-Study/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yang/workspace/3D-SLAM-Study/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/build/example/steer_mini_gazebo/catkin_generated/installspace/steer_mini_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/build/example/steer_mini_gazebo/catkin_generated/installspace/steer_mini_gazebo.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/steer_mini_gazebo/cmake" TYPE FILE FILES
-    "/home/yoseph/worckspace/3D-SLAM-Study/build/example/steer_mini_gazebo/catkin_generated/installspace/steer_mini_gazeboConfig.cmake"
-    "/home/yoseph/worckspace/3D-SLAM-Study/build/example/steer_mini_gazebo/catkin_generated/installspace/steer_mini_gazeboConfig-version.cmake"
+    "/home/yang/workspace/3D-SLAM-Study/build/example/steer_mini_gazebo/catkin_generated/installspace/steer_mini_gazeboConfig.cmake"
+    "/home/yang/workspace/3D-SLAM-Study/build/example/steer_mini_gazebo/catkin_generated/installspace/steer_mini_gazeboConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/steer_mini_gazebo" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/example/steer_mini_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/steer_mini_gazebo" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/src/example/steer_mini_gazebo/package.xml")
 endif()
 

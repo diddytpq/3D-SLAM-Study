@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/velodyne_driver/time_test"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/velodyne_driver/time_test.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/velodyne_driver/time_test"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/velodyne_driver/time_test.pdb"
   "CMakeFiles/time_test.dir/tests/timeconversiontest.cpp.o"
 )
 

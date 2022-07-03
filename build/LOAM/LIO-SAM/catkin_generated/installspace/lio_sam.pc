@@ -1,4 +1,4 @@
-prefix=/home/yoseph/worckspace/3D-SLAM-Study/install
+prefix=/home/yang/workspace/3D-SLAM-Study/install
 
 Name: lio_sam
 Description: Description of lio_sam

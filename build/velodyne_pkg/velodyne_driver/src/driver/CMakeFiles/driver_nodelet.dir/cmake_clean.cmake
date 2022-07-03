@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libdriver_nodelet.pdb"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libdriver_nodelet.so"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/libdriver_nodelet.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/libdriver_nodelet.so"
   "CMakeFiles/driver_nodelet.dir/driver.cc.o"
   "CMakeFiles/driver_nodelet.dir/nodelet.cc.o"
 )

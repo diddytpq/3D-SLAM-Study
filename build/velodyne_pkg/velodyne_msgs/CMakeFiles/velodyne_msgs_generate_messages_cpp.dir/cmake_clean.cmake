@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/include/velodyne_msgs/VelodynePacket.h"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/include/velodyne_msgs/VelodyneScan.h"
+  "/home/yang/workspace/3D-SLAM-Study/devel/include/velodyne_msgs/VelodynePacket.h"
+  "/home/yang/workspace/3D-SLAM-Study/devel/include/velodyne_msgs/VelodyneScan.h"
   "CMakeFiles/velodyne_msgs_generate_messages_cpp"
 )
 

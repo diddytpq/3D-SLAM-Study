@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yoseph/worckspace/3D-SLAM-Study/src
+CMAKE_SOURCE_DIR = /home/yang/workspace/3D-SLAM-Study/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yoseph/worckspace/3D-SLAM-Study/build
+CMAKE_BINARY_DIR = /home/yang/workspace/3D-SLAM-Study/build
 
 # Utility rule file for clean_test_results_velodyne_laserscan.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yoseph/worckspace/3D-SLAM-Study/build
 include velodyne_pkg/velodyne_laserscan/tests/CMakeFiles/clean_test_results_velodyne_laserscan.dir/progress.make
 
 velodyne_pkg/velodyne_laserscan/tests/CMakeFiles/clean_test_results_velodyne_laserscan:
-	cd /home/yoseph/worckspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/tests && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/yoseph/worckspace/3D-SLAM-Study/build/test_results/velodyne_laserscan
+	cd /home/yang/workspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/tests && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/yang/workspace/3D-SLAM-Study/build/test_results/velodyne_laserscan
 
 clean_test_results_velodyne_laserscan: velodyne_pkg/velodyne_laserscan/tests/CMakeFiles/clean_test_results_velodyne_laserscan
 clean_test_results_velodyne_laserscan: velodyne_pkg/velodyne_laserscan/tests/CMakeFiles/clean_test_results_velodyne_laserscan.dir/build.make
@@ -67,10 +67,10 @@ velodyne_pkg/velodyne_laserscan/tests/CMakeFiles/clean_test_results_velodyne_las
 .PHONY : velodyne_pkg/velodyne_laserscan/tests/CMakeFiles/clean_test_results_velodyne_laserscan.dir/build
 
 velodyne_pkg/velodyne_laserscan/tests/CMakeFiles/clean_test_results_velodyne_laserscan.dir/clean:
-	cd /home/yoseph/worckspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/tests && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_velodyne_laserscan.dir/cmake_clean.cmake
+	cd /home/yang/workspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/tests && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_velodyne_laserscan.dir/cmake_clean.cmake
 .PHONY : velodyne_pkg/velodyne_laserscan/tests/CMakeFiles/clean_test_results_velodyne_laserscan.dir/clean
 
 velodyne_pkg/velodyne_laserscan/tests/CMakeFiles/clean_test_results_velodyne_laserscan.dir/depend:
-	cd /home/yoseph/worckspace/3D-SLAM-Study/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yoseph/worckspace/3D-SLAM-Study/src /home/yoseph/worckspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_laserscan/tests /home/yoseph/worckspace/3D-SLAM-Study/build /home/yoseph/worckspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/tests /home/yoseph/worckspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/tests/CMakeFiles/clean_test_results_velodyne_laserscan.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yang/workspace/3D-SLAM-Study/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yang/workspace/3D-SLAM-Study/src /home/yang/workspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_laserscan/tests /home/yang/workspace/3D-SLAM-Study/build /home/yang/workspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/tests /home/yang/workspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/tests/CMakeFiles/clean_test_results_velodyne_laserscan.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : velodyne_pkg/velodyne_laserscan/tests/CMakeFiles/clean_test_results_velodyne_laserscan.dir/depend
 

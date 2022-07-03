@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libvelodyne_rawdata.pdb"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libvelodyne_rawdata.so"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/libvelodyne_rawdata.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/libvelodyne_rawdata.so"
   "CMakeFiles/velodyne_rawdata.dir/calibration.cc.o"
   "CMakeFiles/velodyne_rawdata.dir/rawdata.cc.o"
 )

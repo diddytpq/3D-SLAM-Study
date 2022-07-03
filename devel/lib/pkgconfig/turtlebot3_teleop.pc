@@ -1,4 +1,4 @@
-prefix=/home/yoseph/worckspace/3D-SLAM-Study/devel
+prefix=/home/yang/workspace/3D-SLAM-Study/devel
 
 Name: turtlebot3_teleop
 Description: Description of turtlebot3_teleop

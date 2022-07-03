@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/python3/dist-packages/velodyne_msgs/msg/_VelodynePacket.py"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/python3/dist-packages/velodyne_msgs/msg/_VelodyneScan.py"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/python3/dist-packages/velodyne_msgs/msg/__init__.py"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/python3/dist-packages/velodyne_msgs/msg/_VelodynePacket.py"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/python3/dist-packages/velodyne_msgs/msg/_VelodyneScan.py"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/python3/dist-packages/velodyne_msgs/msg/__init__.py"
   "CMakeFiles/velodyne_msgs_generate_messages_py"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/velodyne_laserscan/test_lazy_subscriber_nodelet"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/velodyne_laserscan/test_lazy_subscriber_nodelet.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/velodyne_laserscan/test_lazy_subscriber_nodelet"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/velodyne_laserscan/test_lazy_subscriber_nodelet.pdb"
   "CMakeFiles/test_lazy_subscriber_nodelet.dir/lazy_subscriber.cpp.o"
 )
 

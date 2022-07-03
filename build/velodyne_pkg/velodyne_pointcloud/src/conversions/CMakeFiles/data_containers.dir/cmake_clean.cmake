@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libdata_containers.pdb"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libdata_containers.so"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/libdata_containers.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/libdata_containers.so"
   "CMakeFiles/data_containers.dir/organized_cloudXYZIRT.cc.o"
   "CMakeFiles/data_containers.dir/pointcloudXYZIRT.cc.o"
 )

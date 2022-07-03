@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libvelodyne_input.pdb"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libvelodyne_input.so"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/libvelodyne_input.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/libvelodyne_input.so"
   "CMakeFiles/velodyne_input.dir/input.cc.o"
 )
 

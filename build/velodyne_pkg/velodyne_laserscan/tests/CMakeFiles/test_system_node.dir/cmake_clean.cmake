@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/velodyne_laserscan/test_system_node"
-  "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/velodyne_laserscan/test_system_node.pdb"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/velodyne_laserscan/test_system_node"
+  "/home/yang/workspace/3D-SLAM-Study/devel/lib/velodyne_laserscan/test_system_node.pdb"
   "CMakeFiles/test_system_node.dir/system.cpp.o"
 )
 

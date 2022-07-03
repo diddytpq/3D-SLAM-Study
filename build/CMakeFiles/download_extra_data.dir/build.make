@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yoseph/worckspace/3D-SLAM-Study/src
+CMAKE_SOURCE_DIR = /home/yang/workspace/3D-SLAM-Study/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yoseph/worckspace/3D-SLAM-Study/build
+CMAKE_BINARY_DIR = /home/yang/workspace/3D-SLAM-Study/build
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/yoseph/worckspace/3D-SLAM-Study/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yoseph/worckspace/3D-SLAM-Study/src /home/yoseph/worckspace/3D-SLAM-Study/src /home/yoseph/worckspace/3D-SLAM-Study/build /home/yoseph/worckspace/3D-SLAM-Study/build /home/yoseph/worckspace/3D-SLAM-Study/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yang/workspace/3D-SLAM-Study/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yang/workspace/3D-SLAM-Study/src /home/yang/workspace/3D-SLAM-Study/src /home/yang/workspace/3D-SLAM-Study/build /home/yang/workspace/3D-SLAM-Study/build /home/yang/workspace/3D-SLAM-Study/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

@@ -1,8 +1,8 @@
-prefix=/home/yoseph/worckspace/3D-SLAM-Study/devel
+prefix=/home/yang/workspace/3D-SLAM-Study/devel
 
 Name: velodyne_pointcloud
 Description: Description of velodyne_pointcloud
 Version: 1.6.1
-Cflags: -I/home/yoseph/worckspace/3D-SLAM-Study/devel/include -I/home/yoseph/worckspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_pointcloud/include
+Cflags: -I/home/yang/workspace/3D-SLAM-Study/devel/include -I/home/yang/workspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_pointcloud/include
 Libs: -L${prefix}/lib -lvelodyne_rawdata -ldata_containers
 Requires: angles nodelet roscpp roslib sensor_msgs tf2_ros velodyne_driver velodyne_msgs dynamic_reconfigure diagnostic_updater

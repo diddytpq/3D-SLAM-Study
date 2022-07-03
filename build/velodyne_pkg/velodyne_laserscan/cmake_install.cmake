@@ -1,8 +1,8 @@
-# Install script for directory: /home/yoseph/worckspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_laserscan
+# Install script for directory: /home/yang/workspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_laserscan
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yoseph/worckspace/3D-SLAM-Study/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yang/workspace/3D-SLAM-Study/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,34 +38,34 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/velodyne_laserscan" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/devel/include/velodyne_laserscan/VelodyneLaserScanConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/velodyne_laserscan" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/devel/include/velodyne_laserscan/VelodyneLaserScanConfig.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/velodyne_laserscan" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/python3/dist-packages/velodyne_laserscan/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/velodyne_laserscan" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/devel/lib/python3/dist-packages/velodyne_laserscan/__init__.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/python3/dist-packages/velodyne_laserscan/cfg")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/yang/workspace/3D-SLAM-Study/devel/lib/python3/dist-packages/velodyne_laserscan/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/velodyne_laserscan" TYPE DIRECTORY FILES "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/python3/dist-packages/velodyne_laserscan/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/velodyne_laserscan" TYPE DIRECTORY FILES "/home/yang/workspace/3D-SLAM-Study/devel/lib/python3/dist-packages/velodyne_laserscan/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/catkin_generated/installspace/velodyne_laserscan.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/catkin_generated/installspace/velodyne_laserscan.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_laserscan/cmake" TYPE FILE FILES
-    "/home/yoseph/worckspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/catkin_generated/installspace/velodyne_laserscanConfig.cmake"
-    "/home/yoseph/worckspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/catkin_generated/installspace/velodyne_laserscanConfig-version.cmake"
+    "/home/yang/workspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/catkin_generated/installspace/velodyne_laserscanConfig.cmake"
+    "/home/yang/workspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/catkin_generated/installspace/velodyne_laserscanConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_laserscan" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_laserscan/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_laserscan" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_laserscan/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,7 +75,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvelodyne_laserscan.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/libvelodyne_laserscan.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/yang/workspace/3D-SLAM-Study/devel/lib/libvelodyne_laserscan.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvelodyne_laserscan.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvelodyne_laserscan.so")
     file(RPATH_CHANGE
@@ -98,12 +98,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/velodyne_laserscan/velodyne_laserscan_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/velodyne_laserscan" TYPE EXECUTABLE FILES "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib/velodyne_laserscan/velodyne_laserscan_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/velodyne_laserscan" TYPE EXECUTABLE FILES "/home/yang/workspace/3D-SLAM-Study/devel/lib/velodyne_laserscan/velodyne_laserscan_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/velodyne_laserscan/velodyne_laserscan_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/velodyne_laserscan/velodyne_laserscan_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/velodyne_laserscan/velodyne_laserscan_node"
-         OLD_RPATH "/home/yoseph/worckspace/3D-SLAM-Study/devel/lib:/opt/ros/noetic/lib:"
+         OLD_RPATH "/home/yang/workspace/3D-SLAM-Study/devel/lib:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/velodyne_laserscan/velodyne_laserscan_node")
@@ -112,12 +112,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_laserscan" TYPE FILE FILES "/home/yoseph/worckspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_laserscan/nodelets.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_laserscan" TYPE FILE FILES "/home/yang/workspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_laserscan/nodelets.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/yoseph/worckspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/tests/cmake_install.cmake")
+  include("/home/yang/workspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_laserscan/tests/cmake_install.cmake")
 
 endif()
 

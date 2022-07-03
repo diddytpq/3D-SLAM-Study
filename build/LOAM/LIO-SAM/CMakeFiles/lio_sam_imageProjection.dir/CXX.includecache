@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/yoseph/worckspace/3D-SLAM-Study/devel/include/lio_sam/cloud_info.h
+/home/yang/workspace/3D-SLAM-Study/devel/include/lio_sam/cloud_info.h
 string
 -
 vector
@@ -30,7 +30,7 @@ sensor_msgs/PointCloud2.h
 sensor_msgs/PointCloud2.h
 -
 
-/home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LIO-SAM/include/utility.h
+/home/yang/workspace/3D-SLAM-Study/src/LOAM/LIO-SAM/include/utility.h
 ros/ros.h
 -
 std_msgs/Header.h
@@ -122,11 +122,11 @@ thread
 mutex
 -
 
-/home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LIO-SAM/src/imageProjection.cpp
+/home/yang/workspace/3D-SLAM-Study/src/LOAM/LIO-SAM/src/imageProjection.cpp
 utility.h
-/home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LIO-SAM/src/utility.h
+/home/yang/workspace/3D-SLAM-Study/src/LOAM/LIO-SAM/src/utility.h
 lio_sam/cloud_info.h
-/home/yoseph/worckspace/3D-SLAM-Study/src/LOAM/LIO-SAM/src/lio_sam/cloud_info.h
+/home/yang/workspace/3D-SLAM-Study/src/LOAM/LIO-SAM/src/lio_sam/cloud_info.h
 
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string

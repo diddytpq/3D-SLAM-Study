@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yoseph/worckspace/3D-SLAM-Study/src
+CMAKE_SOURCE_DIR = /home/yang/workspace/3D-SLAM-Study/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yoseph/worckspace/3D-SLAM-Study/build
+CMAKE_BINARY_DIR = /home/yang/workspace/3D-SLAM-Study/build
 
 # Utility rule file for _run_tests_velodyne_driver.
 
@@ -63,10 +63,10 @@ velodyne_pkg/velodyne_driver/CMakeFiles/_run_tests_velodyne_driver.dir/build: _r
 .PHONY : velodyne_pkg/velodyne_driver/CMakeFiles/_run_tests_velodyne_driver.dir/build
 
 velodyne_pkg/velodyne_driver/CMakeFiles/_run_tests_velodyne_driver.dir/clean:
-	cd /home/yoseph/worckspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_driver && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_velodyne_driver.dir/cmake_clean.cmake
+	cd /home/yang/workspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_driver && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_velodyne_driver.dir/cmake_clean.cmake
 .PHONY : velodyne_pkg/velodyne_driver/CMakeFiles/_run_tests_velodyne_driver.dir/clean
 
 velodyne_pkg/velodyne_driver/CMakeFiles/_run_tests_velodyne_driver.dir/depend:
-	cd /home/yoseph/worckspace/3D-SLAM-Study/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yoseph/worckspace/3D-SLAM-Study/src /home/yoseph/worckspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_driver /home/yoseph/worckspace/3D-SLAM-Study/build /home/yoseph/worckspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_driver /home/yoseph/worckspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_driver/CMakeFiles/_run_tests_velodyne_driver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yang/workspace/3D-SLAM-Study/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yang/workspace/3D-SLAM-Study/src /home/yang/workspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_driver /home/yang/workspace/3D-SLAM-Study/build /home/yang/workspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_driver /home/yang/workspace/3D-SLAM-Study/build/velodyne_pkg/velodyne_driver/CMakeFiles/_run_tests_velodyne_driver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : velodyne_pkg/velodyne_driver/CMakeFiles/_run_tests_velodyne_driver.dir/depend
 

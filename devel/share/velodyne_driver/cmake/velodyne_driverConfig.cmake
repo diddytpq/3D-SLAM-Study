@@ -67,14 +67,14 @@ set(velodyne_driver_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(velodyne_driver_SOURCE_PREFIX /home/yoseph/worckspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_driver)
-  set(velodyne_driver_DEVEL_PREFIX /home/yoseph/worckspace/3D-SLAM-Study/devel)
+  set(velodyne_driver_SOURCE_PREFIX /home/yang/workspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_driver)
+  set(velodyne_driver_DEVEL_PREFIX /home/yang/workspace/3D-SLAM-Study/devel)
   set(velodyne_driver_INSTALL_PREFIX "")
   set(velodyne_driver_PREFIX ${velodyne_driver_DEVEL_PREFIX})
 else()
   set(velodyne_driver_SOURCE_PREFIX "")
   set(velodyne_driver_DEVEL_PREFIX "")
-  set(velodyne_driver_INSTALL_PREFIX /home/yoseph/worckspace/3D-SLAM-Study/install)
+  set(velodyne_driver_INSTALL_PREFIX /home/yang/workspace/3D-SLAM-Study/install)
   set(velodyne_driver_PREFIX ${velodyne_driver_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(velodyne_driver_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/yoseph/worckspace/3D-SLAM-Study/devel/include;/home/yoseph/worckspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_driver/include " STREQUAL " ")
+if(NOT "/home/yang/workspace/3D-SLAM-Study/devel/include;/home/yang/workspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_driver/include " STREQUAL " ")
   set(velodyne_driver_INCLUDE_DIRS "")
-  set(_include_dirs "/home/yoseph/worckspace/3D-SLAM-Study/devel/include;/home/yoseph/worckspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_driver/include")
+  set(_include_dirs "/home/yang/workspace/3D-SLAM-Study/devel/include;/home/yang/workspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_driver/include")
   if(NOT "https://github.com/ros-drivers/velodyne/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ros-drivers/velodyne/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://www.ros.org/wiki/velodyne_driver " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/yoseph/worckspace/3D-SLAM-Study/devel/include;/home/yoseph/worcksp
         message(FATAL_ERROR "Project 'velodyne_driver' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'velodyne_driver' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/yoseph/worckspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_driver/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'velodyne_driver' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/yang/workspace/3D-SLAM-Study/src/velodyne_pkg/velodyne_driver/${idir}'.  ${_report}")
     endif()
     _list_append_unique(velodyne_driver_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/yoseph/worckspace/3D-SLAM-Study/devel/lib;/home/yoseph/worckspace/3D-SLAM-Study/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/yang/workspace/3D-SLAM-Study/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
