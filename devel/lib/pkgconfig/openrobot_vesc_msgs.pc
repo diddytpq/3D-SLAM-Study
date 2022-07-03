@@ -1,8 +1,0 @@
-prefix=/home/yang/workspace/3D-SLAM-Study/devel
-
-Name: openrobot_vesc_msgs
-Description: Description of openrobot_vesc_msgs
-Version: 0.0.1
-Cflags: -I/home/yang/workspace/3D-SLAM-Study/devel/include
-Libs: -L${prefix}/lib 
-Requires: std_msgs message_runtime
